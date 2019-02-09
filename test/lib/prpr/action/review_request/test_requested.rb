@@ -21,12 +21,10 @@ module Prpr
             pull_request: {
               html_url: 'https://github.com/Codertocat/Hello-World/pull/1'
             },
-            requested_reviewers: [
-              {
-                login: 'Codertocat',
-                avator_url: 'https://avatars1.githubusercontent.com/u/00000000?v=1'
-              }
-            ],
+            requested_reviewer: {
+              login: 'Codertocat',
+              avator_url: 'https://avatars1.githubusercontent.com/u/00000000?v=1'
+            },
             sender: { login: 'Codertocat' }
           )
           output = capture_output do
